@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(this, "----" + v, Toast.LENGTH_SHORT).show();
         }*/
     }
-
+//ARUNRK
     private void appIndexing() {
         mClient = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         mUrl = Uri.parse("http://www.nithra.edu/whatnext");
